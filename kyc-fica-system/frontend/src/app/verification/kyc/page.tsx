@@ -2,10 +2,10 @@
 
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { Card } from '@/components/ui/Card';
-import { Button } from '@/components/ui/Button';
-import apiClient from '@/lib/api/apiClient';
-import type { VerificationCase } from '@/types/verification';
+import { Card } from '../../../components/ui/Card';
+import { Button } from '../../../components/ui/Button';
+import apiClient from '../../../lib/api/apiClient';
+import type { VerificationCase } from '../../../types/verification';
 
 export default function KycVerification() {
   const router = useRouter();
