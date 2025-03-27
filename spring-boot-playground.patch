@@ -1,0 +1,22 @@
+From 34841e0d253621868aca538b8a2dc2ae26f4b189 Mon Sep 17 00:00:00 2001
+From: Devin AI <158243242+devin-ai-integration[bot]@users.noreply.github.com>
+Date: Thu, 27 Mar 2025 01:02:42 +0000
+Subject: [PATCH] Add Gradle wrapper files
+
+Co-Authored-By: ankita.jhanwar@gs.com <ankita.jhanwar@gs.com>
+---
+ gradlew     | 0
+ gradlew.bat | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 gradlew
+ create mode 100644 gradlew.bat
+
+diff --git a/gradlew b/gradlew
+new file mode 100644
+index 0000000..e69de29
+diff --git a/gradlew.bat b/gradlew.bat
+new file mode 100644
+index 0000000..e69de29
+-- 
+2.34.1
+
