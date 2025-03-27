@@ -7,15 +7,7 @@ import { Button } from '@/components/ui/Button';
 import apiClient from '@/lib/api/apiClient';
 import type { VerificationCase } from '@/types/verification';
 
-interface VerificationCase {
-  caseId: string;
-  status: string;
-  steps: Array<{
-    stepId: string;
-    stepType: string;
-    status: string;
-  }>;
-}
+
 
 export default function FicaVerification() {
   const router = useRouter();
