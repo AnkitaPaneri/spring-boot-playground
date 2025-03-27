@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import apiClient from '@/lib/api/apiClient';
+import type { VerificationCase } from '@/types/verification';
 
 interface VerificationCase {
   caseId: string;

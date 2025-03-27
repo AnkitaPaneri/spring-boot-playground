@@ -11,7 +11,7 @@ export default function KycVerification() {
   const router = useRouter();
   const [isLoading, setIsLoading] = useState(false);
   const [currentStep, setCurrentStep] = useState(1);
-  const [verificationCase, setVerificationCase] = useState(null);
+  const [verificationCase, setVerificationCase] = useState<VerificationCase | null>(null);
   const [formData, setFormData] = useState({
     customerId: '',
     documentIds: [],
